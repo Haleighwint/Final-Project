@@ -1,0 +1,168 @@
+body 
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    font-family: milonguita,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+
+    
+
+}
+
+a {
+    padding: 20px;
+    margin: 20px;
+    color: rgb(133, 146, 158);
+    font-family: sarina, sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    
+
+}
+
+body
+    {background-color: #FFFBE8;
+    color: rgb(133, 146, 158);
+    
+}
+
+#wrapper {
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E8D9C8;  
+    opacity: 0.7; 
+
+}
+
+.box {
+
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    margin: 6px;
+    animation-name: move;
+    animation-duration: 1s;
+    font-family: gooddog-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  .row {
+    display: flex;
+    width: 94%;
+    justify-content: center;
+    margin: 5px 0;
+  
+    
+  }
+   
+  nav ul li a {
+    display: block; padding: 25px 40px;
+    color: #757575; text-decoration: none;
+}
+
+img {
+
+    height: 300px;
+    width: 400px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: unset;
+    justify-content: left;
+    border: solid rgb(253, 253, 243) 20px;
+    top: 200px;
+    position: absolute;
+    
+}
+
+.box2 {
+
+    background-color: rgb(253, 253, 243);
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 216px;
+    right: 100px;
+    font-size: 18px;
+    text-align: center;
+    
+    
+    
+}
+
+#slider{
+	height:500px;
+	width:700px;
+	overflow:hidden;
+    margin:50px auto;
+    left: 0;
+}
+
+#slider ul{
+	list-style-type:none;
+	position:relative;
+	height:500px;
+	width:2800px;
+	margin:0;
+	padding:0;
+	margin-left:-700px;
+}
+
+#slider ul li{
+	height:500px;
+	width:700px;
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+}
+
+#slider ul li p{
+	margin-left:320px;
+	margin-top:180px;
+}
+
+.type1{
+	background-color:pink;
+}
+
+.type2{
+	background-color:rgb(255, 227, 232);
+}
+
+.slideButton{
+	position:relative;
+	height:70px;
+	width:70px;
+	z-index:999;
+	background-color:E8D8BE;
+	color:white;
+    border:0px;
+    opacity: 0.5;
+}
+
+#buttonleft{
+	top:250px;
+
+}
+
+#buttonright{
+	top:250px;
+	left:557px;
+}
