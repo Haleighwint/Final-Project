@@ -1,8 +1,4 @@
-
-
-$(document).ready(function(){
-
-
+$(function(){
 	$("#slider ul li:last-child").prependTo("#slider ul");
 			
 	$("#buttonleft").click(function(){
@@ -28,5 +24,4 @@ $(document).ready(function(){
 			$("#slider ul").css("left","0");
 		});
 	}
-
 });

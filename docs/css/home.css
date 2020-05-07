@@ -38,7 +38,7 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #E8D9C8;  
+    background-color: rgb(106, 168, 158);  
     opacity: 0.7; 
     padding: 20px;
 
@@ -59,7 +59,13 @@ body
     font-family: gooddog-new, sans-serif;
     font-weight: 400;
     font-style: normal;
+    transition-duration: 1s;
     }
+
+ .box:hover {
+    background-color: rgb(255, 168, 127);
+    animation-name: move;
+    animation-duration: 1s; }
 
   .row {
     display: flex;
@@ -83,24 +89,24 @@ img {
     margin-right: auto;
     margin-top: unset;
     justify-content: left;
-    border: solid rgb(253, 253, 243) 20px;
-    top: 200px;
+    border: solid rgb(255, 255, 238) 20px;
+    top: 300px;
+    left: 100px;
     position: absolute;
     
 }
 
 .box2 {
 
-    background-color: rgb(253, 253, 243);
+    background-color: rgb(47, 221, 56);
+    display: inline-block;
     width: 500px;
     height: 400px;
     position: absolute;
-    top: 216px;
-    right: 100px;
+    top: 300px;
+    right: 250px;
     font-size: 18px;
     text-align: center;
-    
-    
     
 }
 
@@ -137,7 +143,7 @@ img {
 }
 
 .type1{
-	background-color:pink;
+	background-color:rgb(255, 149, 167);
 }
 
 .type2{
