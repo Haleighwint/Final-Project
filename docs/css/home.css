@@ -81,7 +81,7 @@ body
     color: #757575; text-decoration: none;
 }
 
-img {
+.back-img {
 
     height: 300px;
     width: 400px;  
@@ -94,6 +94,11 @@ img {
     left: 100px;
     position: absolute;
     
+}
+
+.slider-img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .box2 {
