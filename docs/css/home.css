@@ -2,7 +2,6 @@ body
 * {
     padding: 0;
     margin: 0;
-    
 }
 
 h1 {
@@ -15,14 +14,12 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
-
-
 }
 
 a {
     padding: 20px;
     margin: 20px;
-    color: #3b5561;
+    color: #7c463d;
     font-family: sarina, sans-serif;
     font-style: normal;
     font-weight: 550;  
@@ -42,7 +39,7 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color:#c08074;  
+    background-color:#ff9a57;  
     opacity: 0.7; 
     padding: 20px;
 
@@ -81,7 +78,7 @@ body
 
 .box {
 
-    background-color: #ddcec8;
+    background-color: #f7e8e2;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -110,7 +107,7 @@ body
     
 .about-box {
     
-    background-color: rgb(255, 244, 223);
+    background-image: url(DSC_1009.jpeg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +118,7 @@ body
     top: 300px;
     font-size: 25px;
     text-align: center;
-    border: solid rgb(235, 128, 128) 2px;
+    border: solid #ffcf91 2px;
     
     }
 
@@ -189,8 +186,33 @@ body
 
 }
 
+.worries-box {
+
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 200px;
+    top: 1170px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.kerry-box {
+
+    position: absolute;
+    width: 450px;
+    height: 311px;
+    right: 300px;
+    top: 1600px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
  .box:hover {
-    background-color: #faa786;
+    background-color: rgb(231, 172, 172);
     animation-name: move;
     animation-duration: 1s; }
 
@@ -221,10 +243,10 @@ body
 
 .flower-img {
     position: absolute;
-width: 430px;
-height: 300px;
-left: 200px;
-top: 1004px;
+    width: 430px;
+    height: 300px;
+    left: 200px;
+    top: 1004px;
 }
 
 .grave-img {
@@ -258,9 +280,24 @@ top: 1004px;
     object-fit: cover;
 }
 
+.worries-img {
 
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    right: 300px;
+    top: 950px;
 
+}
 
+.kerry-img {
+
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 200px;
+    top: 1500px;
+}
 
 
 
