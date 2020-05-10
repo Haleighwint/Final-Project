@@ -20,9 +20,7 @@ a {
     padding: 20px;
     margin: 20px;
     color: #7c463d;
-    font-family: sarina, sans-serif;
-    font-style: normal;
-    font-weight: 550;  
+ 
 
 }
 
@@ -89,9 +87,6 @@ body {
     margin: 6px;
     animation-name: move;
     animation-duration: 1s;
-    font-family: gooddog-new, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     transition-duration: 1s;
     }
 
@@ -213,6 +208,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.statue-box {
+
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 200px;
+    top: 2000px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
  .box:hover {
     background-color: #F5ADAB;
     animation-name: move;
