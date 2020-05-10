@@ -22,9 +22,9 @@ $(document).ready(function(){
 	function moveLeft()
 	{
 
-		//if(rightWasPressed){
-		//	$("#slider ul").css("left","0");
-		//}
+		if(rightWasPressed){
+			$("#slider ul").css("left","0");
+		}
 
 		$("#slider ul").animate({left: "700px"},500,function(){
 			$("#slider ul li:last-child").prependTo("#slider ul");
@@ -32,16 +32,6 @@ $(document).ready(function(){
 		});
 	}
 	
-	function moveRight()
-	{	
 
-		//if(leftWasPressed){
-		//	$("#slider ul").css("left","700px");
-		//}
 
-		$("#slider ul").animate({left: "0"},500,function(){
-			$("#slider ul li:first-child").appendTo("#slider ul");
-			$("#slider ul").css("left","700px");
-		});
-	}
 });
