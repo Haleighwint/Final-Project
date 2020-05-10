@@ -12,13 +12,17 @@ h1 {
     text-align: center;
     margin: 10px;
     font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 a {
     padding: 20px;
     margin: 20px;
-    color: rgb(133, 146, 158);
+    color: #3b5561;
     font-family: sarina, sans-serif;
     font-style: normal;
     font-weight: 550;  
@@ -26,8 +30,8 @@ a {
 }
 
 body
-    {background-color: #FFFBE8;
-    color: rgb(133, 146, 158);
+    {background-color: #fcf7e1;
+    color: rgb(207, 151, 151);
     
 }
 
@@ -38,16 +42,46 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(106, 168, 158);  
+    background-color:#c08074;  
     opacity: 0.7; 
     padding: 20px;
 
 }
 
+#img-wrapper {
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    opacity: 0.7; 
+    padding: 20px;
+
+}
+
+ 
+.row {
+    display: flex;
+    width: 94%;
+    justify-content: center;
+    margin: 5px 0;
+   
+  }
+   
+  nav ul li a {
+    display: block; padding: 25px 40px;
+    color: #838383; text-decoration: none;
+}
+
+
+
+
+
+
+
 .box {
 
-    background-color: rgb(255, 255, 255);
-    opacity: 0.6;
+    background-color: #ddcec8;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -62,58 +96,173 @@ body
     transition-duration: 1s;
     }
 
+ .box2 {
+
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    right: 300px;
+    top: 400px;
+    text-align: center;
+    font-size: 20px;
+        
+    }
+    
+.about-box {
+    
+    background-color: rgb(255, 244, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    font-size: 25px;
+    text-align: center;
+    border: solid rgb(235, 128, 128) 2px;
+    
+    }
+
+.buck-box {
+
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    left: 200px;
+    top: 700px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.flower-box {
+
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    right: 300px;
+    top: 1100px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.grave-box {
+
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    left: 200px;
+    top: 1450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.pride-box {
+
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    width: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.water-box {
+
+    position: absolute;
+    width: 450px;
+    height: 311px;
+    right: 300px;
+    top: 700px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
  .box:hover {
-    background-color: rgb(255, 168, 127);
+    background-color: #faa786;
     animation-name: move;
     animation-duration: 1s; }
 
-  .row {
-    display: flex;
-    width: 94%;
-    justify-content: center;
-    margin: 5px 0;
-  
-    
-  }
-   
-  nav ul li a {
-    display: block; padding: 25px 40px;
-    color: #757575; text-decoration: none;
-}
 
-.back-img {
 
-    height: 300px;
-    width: 400px;  
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: unset;
-    justify-content: left;
-    border: solid rgb(255, 255, 238) 20px;
-    top: 300px;
-    left: 100px;
+
+
+
+
+
+.eye-img {
+
     position: absolute;
+    width: 430px;
+    height: 287px;
+    left: 200px;
+    top: 300px;  
     
 }
 
+.buck-img {
+    position: absolute;
+    width: 450px;
+    height: 311px;
+    right: 300px;
+    top: 621px;
+}
+
+.flower-img {
+    position: absolute;
+width: 430px;
+height: 300px;
+left: 200px;
+top: 1004px;
+}
+
+.grave-img {
+
+    position: absolute;
+    width: 450px;
+    height: 311px;
+    right: 300px;
+    top: 1350px;
+}
+
+.pride-img {
+
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    right: 300px;
+    top: 300px;
+}
+
+.water-img {
+
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    left: 200px;
+    top: 621px;
+}
 .slider-img {
     width: 100%;
     object-fit: cover;
 }
 
-.box2 {
 
-    background-color: rgb(47, 221, 56);
-    display: inline-block;
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 300px;
-    right: 250px;
-    font-size: 18px;
-    text-align: center;
-    
-}
+
+
+
+
 
 #slider{
 	height:500px;
@@ -148,7 +297,7 @@ body
 }
 
 .type1{
-	background-color:rgb(255, 149, 167);
+	background-color:rgb(255, 188, 199);
 }
 
 .type2{
