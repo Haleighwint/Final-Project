@@ -278,6 +278,7 @@ body
 .slider-img {
     width: 100%;
     object-fit: cover;
+    
 }
 
 .worries-img {
@@ -298,6 +299,18 @@ body
     left: 200px;
     top: 1500px;
 }
+
+.statue-img {
+
+    width: 430px;
+    height: 300px;
+    position: absolute;
+    width: 450px;
+    height: 311px;
+    right: 300px;
+    top: 1850px;
+}
+
 
 
 
