@@ -31,6 +31,18 @@ $(document).ready(function(){
 			$("#slider ul").css("left","0");
 		});
 	}
+
+	function moveRight()
+	{	
+		if(leftWasPressed){
+			$("#slider ul").css("left","700px");
+		}
+		$("#slider ul").animate({left: "0"},500,function(){
+			$("#slider ul li:first-child").appendTo("#slider ul");
+			$("#slider ul").css("left","700px");
+		});
+	}
+
 	
 
 
